@@ -1,12 +1,16 @@
 #[derive(Debug)]
 struct Rectangle {
    width: u32,
-   height: u32,
+   length: u32,
 }
 
 impl Rectangle { 
     fn area(&self) -> u32 {
-        self.width * self.height
+        self.width * self.length
+    }
+
+    pub fn can_hold(&self, other: &Rectangle) -> bool {
+        self.length > other.length && self.width > other.width
     }
 }
 
