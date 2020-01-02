@@ -1,0 +1,1 @@
+/Users/riccardopersiani/workspace/rust-playground/minigrep/target/debug/minigrep: /Users/riccardopersiani/workspace/rust-playground/minigrep/src/lib.rs /Users/riccardopersiani/workspace/rust-playground/minigrep/src/main.rs
